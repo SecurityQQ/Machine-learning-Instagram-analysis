@@ -44,9 +44,13 @@ def compress_image(path, min_size=300):
         if image.width > image.height:
             image.save(path, dpi=[min_size * ratio, min_size])
         else:
-            image.save(path, dpi=[min_size, min_size / ratio])
+            image.save(path, dpi=[min_size, min_size / float(ratio)])
     except IOError:
-        print("Warning: file at {} is not image".format(image_path))
+        print("Warning: file at {} is not image. Removing...".format(path))
+        os.remove(path)
+    except ZeroDivisionError:
+        print("Warning: file at {} has corrupted size. Removing...".format(path))
+        os.remove(path)
 
 
 def compress_images_at_dir(path):

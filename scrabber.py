@@ -15,7 +15,7 @@ class InstagramScrabber():
         except IndexError:
             return None
 
-    def scrab_full_info(self, username, dir_to_save="./"):
+    def collect_images(self, username, dir_to_save="./"):
         media = self.bot.get_user_medias(username, filtration=False)
         media_urls = [self.get_media_url(media_id) for media_id in media]
         dir_to_save += username
@@ -57,5 +57,3 @@ class InstagramScrabber():
                                      'ogdencitizensclub',
                                      'davidwallaceshoots']
         self.__update_statistics()
-
-scr.gather_statistics_async()
