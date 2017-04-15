@@ -1,7 +1,6 @@
 import unittest
 from scrabber import InstagramScrabber
 
-
 class TestScrabber(unittest.TestCase):
 
     @staticmethod
@@ -20,7 +19,6 @@ class TestScrabber(unittest.TestCase):
             scrabber.scrab_full_info(my_inst_username)
         except:
             assert False
-
 
 if __name__ == '__main__':
     unittest.main()

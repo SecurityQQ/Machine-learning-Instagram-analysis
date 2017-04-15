@@ -1,0 +1,3 @@
+instabot==0.3.3.14
+requests==2.13.0
+Pillow==4.1.0
