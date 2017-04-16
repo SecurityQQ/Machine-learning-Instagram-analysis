@@ -1,13 +1,6 @@
-import requests
 import instabot as inst
 from utils import download_image, compress_image
-from multiprocessing import Lock, Process, Value as multiprocessingValue
 from time import sleep
-import sys
-import select
-# bot = inst.Bot()
-# bot.login(username=username, password=pwd)
-
 
 class InstagramScrabber():
 
@@ -22,7 +15,7 @@ class InstagramScrabber():
         except IndexError:
             return None
 
-    def scrab_full_info(self, username, dir_to_save="./"):
+    def collect_images(self, username, dir_to_save="./"):
         media = self.bot.get_user_medias(username, filtration=False)
         media_urls = [self.get_media_url(media_id) for media_id in media]
         dir_to_save += username
@@ -30,7 +23,6 @@ class InstagramScrabber():
             print("Downloading image: {}, saving to: {}".format(url, dir_to_save))
             result_url = download_image(url, dir_to_save)
             compress_image(result_url)
-
 
     def __update_statistics(self, delay=60 * 60):
         usernames = self.usernames_to_collect
@@ -65,7 +57,3 @@ class InstagramScrabber():
                                      'ogdencitizensclub',
                                      'davidwallaceshoots']
         self.__update_statistics()
-
-
-scr = InstagramScrabber()
-scr.gather_statistics_async()
