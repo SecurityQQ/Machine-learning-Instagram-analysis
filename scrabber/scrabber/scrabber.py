@@ -89,6 +89,7 @@ class InstagramScrabber():
         return Counter(likers + commenters).most_common(20)
 
     def get_active_users(self, username):
+        # TODO: make w/o get_user_medias UPD: probably, unimplementable
         media = self.bot.get_user_medias(username, filtration=False)
         cache_path = os.path.join("./images/", username, 'cache_active_users.tsv')
         set_counter = {}
@@ -118,13 +119,20 @@ class InstagramScrabber():
     def collect_images_with_followers(self, username, dir_to_save="./images/", depth=20):
         if depth == -1:  # no limit
             depth = 100000
+
+        now = datetime.now()
         username = self.bot.convert_to_user_id(username)
         active_users = self.get_active_users(username)
+        end = datetime.now()
+        print("get active users: ", (end-now).total_seconds())
         # print(active_users)
         # sleep(3)
         i = 0
         for user_id, count in active_users.items():
-            self.collect_images(user_id, dir_to_save=dir_to_save)
+            try:
+                self.collect_images(user_id, dir_to_save=dir_to_save)
+            except Exception as e:
+                print("Exception at collect_images_with_followers: {}".format(e))
             i += 1
             if i >= depth:
                 break
