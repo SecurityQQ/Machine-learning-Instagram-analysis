@@ -1,5 +1,7 @@
 import unittest
+
 from scrabber import InstagramScrabber
+
 
 class TestScrabber(unittest.TestCase):
 
@@ -16,7 +18,7 @@ class TestScrabber(unittest.TestCase):
         try:
             my_inst_username = 'alexm.shots'
             scrabber = InstagramScrabber(TestScrabber.username(), TestScrabber.password())
-            scrabber.scrab_full_info(my_inst_username)
+            scrabber.collect_images(my_inst_username)
         except:
             assert False
 
