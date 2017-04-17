@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+    <br><em>hey</em>
+    {% for key, value in objects.iteritems() %}
+   <tr>
+        <th> {{ key }} </th>
+        <td> {{ value }} </td>
+   </tr>
+{% endfor %}
+    {% for key, value in styles.iteritems() %}
+   <tr>
+        <th> {{ key }} </th>
+        <td> {{ value }} </td>
+   </tr>
+{% endfor %}
+{% endblock %}
