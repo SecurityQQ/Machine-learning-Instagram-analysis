@@ -1,11 +1,17 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
+import sys
+scrabber_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber'
+sys.path.append(scrabber_dir)
 try:
     from instabot import *
     from utils import download_image, download_image_multi_wrapped, compress_image, dump_data
-except ModuleNotFoundError:  # pycharm magic
+except:  # pycharm magic
     from .instabot import *
     from .utils import download_image, download_image_multi_wrapped, compress_image, dump_data
+
+# from instabot import *
+# from utils import download_image, download_image_multi_wrapped, compress_image, dump_data
 
 from collections import Counter
 from itertools import izip, repeat
@@ -49,7 +55,11 @@ class InstagramScrabber():
                                 stop_words=['shop', 'store', 'free']
                             )
         self.usernames_to_collect = []
+        print('init')
+        old_stdout = sys.stdout
+        sys.stdout = open(os.devnull, 'w')
         self.bot.login(username=username, password=password)
+        sys.stdout = old_stdout
 
     def get_media_info(self, media_id):
         try:
@@ -85,10 +95,10 @@ class InstagramScrabber():
         commenters = self.bot.get_media_commenters(media_id)
         return Counter(likers + commenters).most_common(20)
 
-    def get_active_users(self, username):
+    def get_active_users(self, username, dir_to_save):
         # TODO: make w/o get_user_medias UPD: probably, unimplementable
         media = self.bot.get_user_medias(username, filtration=False)
-        cache_path = os.path.join("./images/", username, 'cache_active_users.tsv')
+        cache_path = os.path.join(dir_to_save, username, 'cache_active_users.tsv')
         set_counter = {}
         if os.path.exists(cache_path):
             with open(cache_path) as cache:
@@ -114,11 +124,12 @@ class InstagramScrabber():
 
 
     def collect_images_with_followers(self, username, dir_to_save="./images/", depth=20):
+        print(dir_to_save)
         print("-- Running collect images with followers".format())
         if depth == -1:  # no limit
             depth = 100000
         username = self.bot.convert_to_user_id(username)
-        active_users = self.get_active_users(username)
+        active_users = self.get_active_users(username, dir_to_save=dir_to_save)
         i = 0
         total_num_of_users = min(depth, len(active_users))
         saved_users = {}
@@ -148,12 +159,14 @@ class InstagramScrabber():
         username = self.bot.convert_to_user_id(username)
         return username
 
-    def collect_images(self, username, dir_to_save="./images/"):
+    def collect_images(self, username, dir_to_save="/images/"):
+        print('collect_ing' + dir_to_save)
         username = self.bot.convert_to_user_id(username)
         media_urls = self.get_media_urls(username)
         dir_to_save = os.path.join(dir_to_save, username)
         media_urls = [url for url in media_urls if url is not None]
         if not os.path.exists(dir_to_save):
+            print('making dir')
             os.makedirs(dir_to_save)
         pool = Pool(4)
         pool.map(download_image_multi_wrapped, izip(media_urls, repeat(dir_to_save)))
@@ -172,3 +185,4 @@ class InstagramScrabber():
 def get_data(username, password):
     scr = InstagramScrabber(username=username, password=password)
     return scr.collect_images_with_followers(username)
+

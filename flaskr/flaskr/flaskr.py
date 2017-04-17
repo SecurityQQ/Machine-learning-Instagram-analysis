@@ -4,15 +4,20 @@ from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash
 import sys
 calc_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
+scrabber_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber'
 sys.path.append(calc_dir)
+sys.path.append(scrabber_dir)
 import json
 import vgg_app
 import caffe_flickr_app
-
+import scrabber
 app = Flask(__name__) # create the application instance :)
 app.config.from_object(__name__) # load config from this file , flaskr.py
 # app.run(host='0.0.0.0', port=81)
 # app.run(threaded=False)
+
+MY_USERNAME = 'ogdencitizensclub'
+MY_PASSWORD = 'Tasselhof1995'
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
@@ -57,14 +62,23 @@ def initdb_command():
     init_db()
     print('Initialized the database.')
 
+
+def collect_data(username):
+    instascrabber = scrabber.InstagramScrabber(username=MY_USERNAME, password=MY_PASSWORD)
+    instascrabber.collect_images_with_followers(username=username, dir_to_save='./' + username)
+
+def clear_memory(username):
+    os.system('rm -r ./' + username)
+
 @app.route('/hey')
 def show_output():
     os.chdir(calc_dir)
     messages = json.loads(request.args['messages'])
-    # print('username' + messages['username'])
+    collect_data(messages['username'])
     objects = vgg_app.predict_user(messages['username'])
-    styles = caffe_flickr_app.predict_user(messages['username'])
-    print("styls", styles)
+    # styles = caffe_flickr_app.predict_user(messages['username'])
+    styles={}
+    # clear_memory(messages['username'])
     return render_template('show_output.html', objects=objects, styles=styles)
 
 

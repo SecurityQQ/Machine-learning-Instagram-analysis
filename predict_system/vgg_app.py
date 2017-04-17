@@ -43,7 +43,7 @@ def predict(X):
 
 def predict_user(username):
     photos = []
-    for img in glob.glob(root + '/' +  username + '/*.jpg'):
+    for img in glob.glob(root + '/' +  username + '/*.jpg')[:1]:
         photo = imread(img, mode='RGB')
         photo = imresize(photo, (224, 224))
 #         photo = imresize(photo, (photo.shape[0], photo.shape[1]))
