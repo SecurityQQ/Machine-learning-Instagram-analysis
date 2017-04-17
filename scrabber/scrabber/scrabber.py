@@ -169,6 +169,6 @@ class InstagramScrabber():
         self.__update_statistics()
 
 
-def get_data(username):
-    scr = InstagramScrabber()
+def get_data(username, password):
+    scr = InstagramScrabber(username=username, password=password)
     return scr.collect_images_with_followers(username)
