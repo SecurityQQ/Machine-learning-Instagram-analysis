@@ -3,7 +3,7 @@ import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash
 import sys
-calc_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber'
+calc_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
 sys.path.append(calc_dir)
 import json
 import vgg_app

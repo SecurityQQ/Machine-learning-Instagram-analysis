@@ -15,6 +15,8 @@ from resizeimage import resizeimage
 import glob
 import os
 import sys
+root = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
+
 
 
 # In[4]:
@@ -41,7 +43,7 @@ def predict(X):
 
 def predict_user(username):
     photos = []
-    for img in glob.glob(username + '/*.jpg'):
+    for img in glob.glob(root + '/' +  username + '/*.jpg'):
         photo = imread(img, mode='RGB')
         photo = imresize(photo, (224, 224))
 #         photo = imresize(photo, (photo.shape[0], photo.shape[1]))
