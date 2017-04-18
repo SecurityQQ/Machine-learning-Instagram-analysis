@@ -11,17 +11,27 @@ function showHideFooter(delta) {
 
 var tooltipFlag = false;
 
-function buildGraph(inpurData) {
-    var graph = [];
+function buildGraph(inpurData=[]) {
+    //var graph = [];
+    var graph = [
+        {
+            "x": "Pepperoni",
+            "y": 4
+        },
+        {
+            "x": "Cheese",
+            "y": 8
+        }
+    ];
     for (var key in inpurData) {
-        graph.push({ "x": key, "y": inpurData[key] });
+        graph.push({ "x": key.split(' ')[0], "y": inpurData[key] });
     }
     var data = {
         "xScale": "ordinal",
         "yScale": "linear",
         "main": [
             {
-                "className": ".pizza",
+                "className": "photo_classes",
                 "data": graph,
             }
         ]
@@ -29,7 +39,7 @@ function buildGraph(inpurData) {
 
     var opts = {
         "mouseover": function (d, i) {
-            $('.graph-tooltip').text(d.x + ': ' + d.y);
+            $('#graph-tooltip-img').attr({"src": "static/example/" + i + ".jpg"});
             tooltipFlag = true;
         },
         "mouseout": function (x) {
@@ -54,7 +64,7 @@ $(document).ready(function () {
     $(document).on('mousemove', function (e) {
         $('.graph-tooltip').css({
             left: e.pageX - $('.graph-tooltip').width(),
-            top: e.pageY - 2 * $('.graph-tooltip').height()
+            top: e.pageY - 1.1 * $('.graph-tooltip').height()
         });
         if (tooltipFlag) {
             $('.graph-tooltip').show();
@@ -65,7 +75,6 @@ $(document).ready(function () {
     });
 
     $("#inputUsername, #inputPassword").keyup(function (event) {
-        console.log('enter');
         if (event.keyCode == 13) {
             $('#calculate').click();
         }
@@ -78,6 +87,7 @@ $(document).ready(function () {
         $('.loader').show();
         var requestStr = '{"username":"' + $('#inputUsername').val() + '","password":"' + $('#inputPassword').val() + '"}';
         $.getJSON('/hey', { messages: requestStr }, function (data) {
+            console.log(data);
             $('#graph').show();
             $('.loader').hide();
             buildGraph(data);
