@@ -15,7 +15,7 @@ import sys
 old_stdout = sys.stdout
 sys.stdout = open(os.devnull, 'w')
 
-root = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
+root = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/predict_system'
 # root= os.getcwd()
 
 

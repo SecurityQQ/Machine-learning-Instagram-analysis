@@ -1,13 +1,157 @@
-{% extends "layout.html" %}
-{% block body %}
-  <h2>Input</h2>
-  <form action="{{ url_for('input') }}" method=post>
-    <dl>
-      <dt>Username:
-      <dd><input type=text name=username>
-      <dt>Password:
-      <dd><input type=password name=password>
-      <dd><input type=submit value=Login>
-    </dl>
-  </form>
+{% extends "layout.html" %} {% block body %}
+<div class="container-fluid">
+  <div class="header clearfix">
+    <div class="row">
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-4">
+        <h3 class="text-muted display-4">InstAdvisor</h3>
+      </div>
+      <div class="col-lg-6">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="Contacts">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-lg-1">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row marketing">
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-7">
+      <div class="jumbotron graph">
+        <div class="loader">
+          
+        </div>
+        <div id="graph">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="jumbotron">
+        <h1 class="display-4">Login</h1>
+        <p class="lead">
+          <form action="{{ url_for('input') }}" method=post>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username" name=username>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password" name=password>
+              </div>
+            </div>
+        </p>
+        <p>
+          <input type="button" class="btn btn-lg btn-success" id='calculate' href="#" role="button" value=Calculate>
+        </p>
+        </form>
+      </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <p>&copy; MIPT 2017</p>
+</footer>
+<div id='slider' class="slider">
+  <h2 class="display-4 credit-head">About</h2>
+  <p></p>
+  <h3 class="credit-separator">Boss</h3>
+  <div class="container-fluid">
+    <div class="row credit">
+      <div class="col-lg-6">
+        <img class="avatar" src="{{ url_for('static', filename='about/lesha.jpg') }}">
+      </div>
+      <div class="col-lg-6 name-info">
+        <h3 class="lead">
+          Гончаров
+          <br> Алексей
+        </h3>
+        <a href="https://github.com/SecurityQQ">
+          <img class="icon" src="{{ url_for('static', filename='about/github.png') }}">
+        </a>
+        <a href="https://www.linkedin.com/in/aleksandr-malyshev-444656110/">
+          <img class="icon" src="{{ url_for('static', filename='about/linkedin.png') }}">
+        </a>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="credit-separator">Development</h3>
+  <div class="container-fluid">
+    <div class="row credit">
+      <div class="col-lg-6">
+        <img class="avatar" src="{{ url_for('static', filename='about/sasha.jpg') }}">
+      </div>
+      <div class="col-lg-6 name-info">
+        <h3 class="lead">
+          Малышев
+          <br> Александр
+        </h3>
+        <a href="https://github.com/SecurityQQ">
+          <img class="icon" src="{{ url_for('static', filename='about/github.png') }}">
+        </a>
+        <a href="https://www.linkedin.com/in/aleksandr-malyshev-444656110/">
+          <img class="icon" src="{{ url_for('static', filename='about/linkedin.png') }}">
+        </a>
+        <br>
+      </div>
+    </div>
+    <div class="row credit">
+      <div class="col-lg-6">
+        <img class="avatar" src="{{ url_for('static', filename='about/lera.jpg') }}">
+      </div>
+      <div class="col-lg-6 name-info">
+        <h3 class="lead">
+          Синевич
+          <br> Валерия
+        </h3>
+        <a href="https://github.com/ValeriyaSinevich">
+          <img class="icon" src="{{ url_for('static', filename='about/github.png') }}">
+        </a>
+        <a href="https://www.linkedin.com/in/valeriya-sinevich/">
+          <img class="icon" src="{{ url_for('static', filename='about/linkedin.png') }}">
+        </a>
+        <br>
+      </div>
+    </div>
+    <div class="row credit">
+      <div class="col-lg-6">
+        <img class="avatar" src="{{ url_for('static', filename='about/andy.jpg') }}">
+      </div>
+      <div class="col-lg-6 name-info">
+        <h3 class="lead">
+          Зерцалов
+          <br> Андрей
+        </h3>
+        <a href="https://www.github.com/zerts/">
+          <img class="icon" src="{{ url_for('static', filename='about/github.png') }}">
+        </a>
+        <a href="https://www.linkedin.com/in/zerts/">
+          <img class="icon" src="{{ url_for('static', filename='about/linkedin.png') }}">
+        </a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /container -->
+
 {% endblock %}

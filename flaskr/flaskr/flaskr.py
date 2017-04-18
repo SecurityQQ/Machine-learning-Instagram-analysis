@@ -3,13 +3,14 @@ import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash
 import sys
-calc_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
+calc_dir = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/predict_system'
 sys.path.append(calc_dir)
 import json
 import vgg_app
-import caffe_flickr_app
+from flask import jsonify
+# import caffe_flickr_app
 
-app = Flask(__name__) # create the application instance :)
+app = Flask(__name__, static_url_path='/static') # create the application instance :)
 app.config.from_object(__name__) # load config from this file , flaskr.py
 # app.run(host='0.0.0.0', port=81)
 # app.run(threaded=False)
@@ -62,10 +63,11 @@ def show_output():
     os.chdir(calc_dir)
     messages = json.loads(request.args['messages'])
     # print('username' + messages['username'])
+    
     objects = vgg_app.predict_user(messages['username'])
-    styles = caffe_flickr_app.predict_user(messages['username'])
-    print("styls", styles)
-    return render_template('show_output.html', objects=objects, styles=styles)
+    return jsonify(objects)
+    # styles = caffe_flickr_app.predict_user(messages['username'])
+    # return render_template('show_output.html', objects=objects, styles={})
 
 
 @app.route('/', methods=['GET', 'POST'])
