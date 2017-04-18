@@ -91,8 +91,13 @@ class InstagramScrabber():
         return [item for item in media_info['comments'] if item['content_type'] == 'comment']
 
     def get_active_users_by_media_id(self, media_id):
+        print('Media id at get active users by media id {}'.format(media_id))
         likers = self.bot.get_media_likers(media_id)
         commenters = self.bot.get_media_commenters(media_id)
+        if type(likers) != list:
+            likers = []
+        if type(commenters) != list:
+            commenters = []
         return Counter(likers + commenters).most_common(20)
 
     def get_active_users(self, username, dir_to_save):
@@ -128,6 +133,7 @@ class InstagramScrabber():
         print("-- Running collect images with followers".format())
         if depth == -1:  # no limit
             depth = 100000
+        dir_to_save = os.path.join(dir_to_save, username)
         username = self.bot.convert_to_user_id(username)
         active_users = self.get_active_users(username, dir_to_save=dir_to_save)
         i = 0
@@ -160,10 +166,10 @@ class InstagramScrabber():
         return username
 
     def collect_images(self, username, dir_to_save="/images/"):
-        print('collect_ing' + dir_to_save)
+        print('collecting', username)
         username = self.bot.convert_to_user_id(username)
         media_urls = self.get_media_urls(username)
-        dir_to_save = os.path.join(dir_to_save, username)
+        # dir_to_save = os.path.join(dir_to_save, username)
         media_urls = [url for url in media_urls if url is not None]
         if not os.path.exists(dir_to_save):
             print('making dir')

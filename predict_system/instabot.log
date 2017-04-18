@@ -202,3 +202,70 @@
 2017-04-19 00:16:10,318 Instabot Started
 2017-04-19 00:16:11,122 Login success as zertsalov!
 2017-04-19 00:16:13,756 127.0.0.1 - - [19/Apr/2017 00:16:13] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%221%22%7D HTTP/1.1" 500 -
+2017-04-19 00:20:58,212 Bot stopped. Worked: 0:22:38.305939
+2017-04-19 00:20:58,212 Total requests: 15
+2017-04-19 00:20:58,490 Bot stopped. Worked: 0:22:38.583691
+2017-04-19 00:20:58,490 Total requests: 15
+2017-04-19 00:20:59,040 Bot stopped. Worked: 0:22:39.133809
+2017-04-19 00:20:59,040 Total requests: 11
+2017-04-19 00:20:59,344 Bot stopped. Worked: 0:22:39.438259
+2017-04-19 00:20:59,344 Total requests: 11
+2017-04-19 00:21:10,632 Instabot Started
+2017-04-19 00:21:11,407 Login success as zertsalov!
+2017-04-19 00:21:13,748 127.0.0.1 - - [19/Apr/2017 00:21:13] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%221%22%7D HTTP/1.1" 500 -
+2017-04-19 00:33:17,215 Bot stopped. Worked: 0:34:57.308968
+2017-04-19 00:33:17,215 Total requests: 15
+2017-04-19 00:33:51,327 Instabot Started
+2017-04-19 00:33:52,343 Login success as zertsalov!
+2017-04-19 00:33:54,795 127.0.0.1 - - [19/Apr/2017 00:33:54] "GET /hey?messages=%7B%22username%22%3A%22alexm.daily%22%2C%22password%22%3A%2211q22w33e%22%7D HTTP/1.1" 500 -
+2017-04-19 00:34:55,624 Bot stopped. Worked: 0:36:35.718505
+2017-04-19 00:34:55,625 Total requests: 19
+2017-04-19 00:35:40,389 Instabot Started
+2017-04-19 00:35:41,594 Login success as zertsalov!
+2017-04-19 00:35:41,601 127.0.0.1 - - [19/Apr/2017 00:35:41] "GET /hey?messages=%7B%22username%22%3A%22alexm.daily%22%2C%22password%22%3A%2211q22w33e%22%7D HTTP/1.1" 500 -
+2017-04-19 00:37:08,782  * Detected change in '/home/zerts/MIPT/Machine-learning-Instagram-analysis/scrabber/scrabber/scrabber.py', reloading
+2017-04-19 00:37:35,260 Instabot Started
+2017-04-19 00:37:36,028 Login success as zertsalov!
+2017-04-19 00:37:36,036 127.0.0.1 - - [19/Apr/2017 00:37:36] "GET /hey?messages=%7B%22username%22%3A%22alexm.daily%22%2C%22password%22%3A%2211q22w33e%22%7D HTTP/1.1" 500 -
+2017-04-19 00:39:11,886  * Detected change in '/home/zerts/MIPT/Machine-learning-Instagram-analysis/flaskr/flaskr/flaskr.py', reloading
+2017-04-19 00:39:27,757 Instabot Started
+2017-04-19 00:39:28,562 Login success as ohrana228!
+2017-04-19 00:39:28,572 127.0.0.1 - - [19/Apr/2017 00:39:28] "GET /hey?messages=%7B%22username%22%3A%22alexm.daily%22%2C%22password%22%3A%2211q22w33e%22%7D HTTP/1.1" 500 -
+2017-04-19 00:39:51,500 Instabot Started
+2017-04-19 00:39:52,300 Login success as ohrana228!
+2017-04-19 00:39:52,309 127.0.0.1 - - [19/Apr/2017 00:39:52] "GET /hey?messages=%7B%22username%22%3A%22%22%2C%22password%22%3A%22%22%7D HTTP/1.1" 500 -
+2017-04-19 00:45:19,607 Instabot Started
+2017-04-19 00:45:20,839 Login success as ohrana228!
+2017-04-19 00:45:24,137 127.0.0.1 - - [19/Apr/2017 00:45:24] "GET /hey?messages=%7B%22username%22%3A%22ohrana228%22%2C%22password%22%3A%22GoStartUp1337%22%7D HTTP/1.1" 200 -
+2017-04-19 01:05:27,451 Bot stopped. Worked: 0:20:07.843206
+2017-04-19 01:05:27,451 Total requests: 11
+2017-04-19 01:06:20,173 Instabot Started
+2017-04-19 01:06:21,046 Login success as ohrana228!
+2017-04-19 01:06:37,000 127.0.0.1 - - [19/Apr/2017 01:06:37] "GET /hey?messages=%7B%22username%22%3A%22alexm.shots%22%2C%22password%22%3A%22rgr%22%7D HTTP/1.1" 200 -
+2017-04-19 01:07:00,152 Bot stopped. Worked: 0:21:40.544380
+2017-04-19 01:07:00,152 Total requests: 49
+2017-04-19 01:07:37,721 Instabot Started
+2017-04-19 01:07:38,528 Login success as ohrana228!
+2017-04-19 01:07:57,133 Request return 400 error!
+2017-04-19 01:07:57,136 This is a closed account.
+2017-04-19 01:08:23,512 127.0.0.1 - - [19/Apr/2017 01:08:23] "GET /hey?messages=%7B%22username%22%3A%22alexm.shots%22%2C%22password%22%3A%22grh%22%7D HTTP/1.1" 200 -
+2017-04-19 01:15:20,190 Bot stopped. Worked: 0:07:42.469060
+2017-04-19 01:15:20,193 Total requests: 25
+2017-04-19 01:17:31,514 Instabot Started
+2017-04-19 01:17:32,444 Login success as ohrana228!
+2017-04-19 01:17:52,028 Request return 400 error!
+2017-04-19 01:17:52,030 This is a closed account.
+2017-04-19 01:18:11,521 Request return 400 error!
+2017-04-19 01:18:11,523 This is a closed account.
+2017-04-19 01:19:21,984 Instabot Started
+2017-04-19 01:19:22,839 Login success as ohrana228!
+2017-04-19 01:20:26,842 Request return 400 error!
+2017-04-19 01:20:26,844 This is a closed account.
+2017-04-19 01:20:34,276 127.0.0.1 - - [19/Apr/2017 01:20:34] "GET /hey?messages=%7B%22username%22%3A%22alexm.daily%22%2C%22password%22%3A%22feh5%22%7D HTTP/1.1" 500 -
+2017-04-19 01:21:23,765 Bot stopped. Worked: 0:13:46.044506
+2017-04-19 01:21:23,793 Total requests: 47
+2017-04-19 01:22:04,123 Instabot Started
+2017-04-19 01:22:05,006 Login success as ohrana228!
+2017-04-19 01:22:37,757 Request return 400 error!
+2017-04-19 01:22:37,760 This is a closed account.
+2017-04-19 01:23:46,928 127.0.0.1 - - [19/Apr/2017 01:23:46] "GET /hey?messages=%7B%22username%22%3A%22alexm.daily%22%2C%22password%22%3A%22fh%22%7D HTTP/1.1" 500 -

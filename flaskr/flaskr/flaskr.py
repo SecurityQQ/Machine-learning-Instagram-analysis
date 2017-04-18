@@ -16,8 +16,8 @@ app.config.from_object(__name__) # load config from this file , flaskr.py
 # app.run(host='0.0.0.0', port=81)
 # app.run(threaded=False)
 
-MY_USERNAME = 'zertsalov'
-MY_PASSWORD = 'HmADF#'
+MY_USERNAME = 'ohrana228'
+MY_PASSWORD = 'GoStartUp1337'
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
@@ -65,7 +65,7 @@ def initdb_command():
 
 def collect_data(username):
     instascrabber = scrabber.InstagramScrabber(username=MY_USERNAME, password=MY_PASSWORD)
-    instascrabber.collect_images_with_followers(username=username, dir_to_save='./' + username)
+    instascrabber.collect_images_with_followers(username=username, dir_to_save='./')
 
 def clear_memory(username):
     os.system('rm -r ./' + username)
@@ -75,6 +75,7 @@ def show_output():
     os.chdir(calc_dir)
     messages = json.loads(request.args['messages'])
     collect_data(messages['username'])
+    print('collected\n')
     objects = vgg_app.predict_user(messages['username'])
     # styles = caffe_flickr_app.predict_user(messages['username'])
     styles={}
