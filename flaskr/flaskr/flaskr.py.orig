@@ -3,21 +3,32 @@ import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash
 import sys
+<<<<<<< HEAD
 calc_dir = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/predict_system'
-scrabber_dir = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/scrabber/scrabber'
+=======
+calc_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
+scrabber_dir = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber'
+>>>>>>> master
 sys.path.append(calc_dir)
 sys.path.append(scrabber_dir)
 import json
 import vgg_app
+<<<<<<< HEAD
+from flask import jsonify
 # import caffe_flickr_app
+
+app = Flask(__name__, static_url_path='/static') # create the application instance :)
+=======
+import caffe_flickr_app
 import scrabber
 app = Flask(__name__) # create the application instance :)
+>>>>>>> master
 app.config.from_object(__name__) # load config from this file , flaskr.py
 # app.run(host='0.0.0.0', port=81)
 # app.run(threaded=False)
 
-MY_USERNAME = 'zertsalov'
-MY_PASSWORD = 'HmADF#'
+MY_USERNAME = 'ogdencitizensclub'
+MY_PASSWORD = 'Tasselhof1995'
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
@@ -74,12 +85,21 @@ def clear_memory(username):
 def show_output():
     os.chdir(calc_dir)
     messages = json.loads(request.args['messages'])
+<<<<<<< HEAD
+    # print('username' + messages['username'])
+    
+    objects = vgg_app.predict_user(messages['username'])
+    return jsonify(objects)
+    # styles = caffe_flickr_app.predict_user(messages['username'])
+    # return render_template('show_output.html', objects=objects, styles={})
+=======
     collect_data(messages['username'])
     objects = vgg_app.predict_user(messages['username'])
     # styles = caffe_flickr_app.predict_user(messages['username'])
     styles={}
     # clear_memory(messages['username'])
     return render_template('show_output.html', objects=objects, styles=styles)
+>>>>>>> master
 
 
 @app.route('/', methods=['GET', 'POST'])

@@ -5,3 +5,200 @@
 2017-04-16 18:50:22,749 Resetting dropped connection: i.instagram.com
 2017-04-16 18:50:23,103 Bot stopped. Worked: 0:00:01.629571
 2017-04-16 18:50:23,103 Total requests: 3
+2017-04-17 20:34:14,331 Instabot Started
+2017-04-17 20:34:15,747 Login success as ohrana228!
+2017-04-17 20:34:15,801 127.0.0.1 - - [17/Apr/2017 20:34:15] "GET /hey?messages=%7B%22username%22%3A+%22odgencitizensclub%22%2C+%22password%22%3A+%22Tasselhof1995%22%7D HTTP/1.1" 500 -
+2017-04-17 20:34:15,947 127.0.0.1 - - [17/Apr/2017 20:34:15] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 20:34:15,977 127.0.0.1 - - [17/Apr/2017 20:34:15] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 20:34:15,988 127.0.0.1 - - [17/Apr/2017 20:34:15] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 20:34:16,011 127.0.0.1 - - [17/Apr/2017 20:34:16] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:34:16,263 127.0.0.1 - - [17/Apr/2017 20:34:16] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:35:29,743  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/flaskr/flaskr/flaskr.py', reloading
+2017-04-17 20:36:45,781 Instabot Started
+2017-04-17 20:36:48,242 Login success as ohrana228!
+2017-04-17 20:36:48,248 127.0.0.1 - - [17/Apr/2017 20:36:48] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 20:36:48,277 127.0.0.1 - - [17/Apr/2017 20:36:48] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 20:36:48,277 127.0.0.1 - - [17/Apr/2017 20:36:48] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 20:36:48,278 127.0.0.1 - - [17/Apr/2017 20:36:48] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 20:36:48,470 127.0.0.1 - - [17/Apr/2017 20:36:48] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:36:48,582 127.0.0.1 - - [17/Apr/2017 20:36:48] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:47:21,812  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/flaskr/flaskr/flaskr.py', reloading
+2017-04-17 20:47:48,603 Instabot Started
+2017-04-17 20:47:49,886 Login success as ogdencitizensclub!
+2017-04-17 20:47:49,897 127.0.0.1 - - [17/Apr/2017 20:47:49] "GET /hey?messages=%7B%22username%22%3A+%22odgencitizensclub%22%2C+%22password%22%3A+%22Tasselhof1995%22%7D HTTP/1.1" 500 -
+2017-04-17 20:47:50,058 127.0.0.1 - - [17/Apr/2017 20:47:50] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 20:47:50,058 127.0.0.1 - - [17/Apr/2017 20:47:50] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 20:47:50,059 127.0.0.1 - - [17/Apr/2017 20:47:50] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 20:47:50,285 127.0.0.1 - - [17/Apr/2017 20:47:50] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:47:50,296 127.0.0.1 - - [17/Apr/2017 20:47:50] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:50:30,617 Instabot Started
+2017-04-17 20:50:32,465 Login success as ogdencitizensclub!
+2017-04-17 20:50:32,496 127.0.0.1 - - [17/Apr/2017 20:50:32] "GET /hey?messages=%7B%22username%22%3A+%22odgencitizensclub%22%2C+%22password%22%3A+%22Tasselhof1995%22%7D HTTP/1.1" 500 -
+2017-04-17 20:50:32,661 127.0.0.1 - - [17/Apr/2017 20:50:32] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 20:50:32,662 127.0.0.1 - - [17/Apr/2017 20:50:32] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 20:50:32,662 127.0.0.1 - - [17/Apr/2017 20:50:32] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 20:50:32,878 127.0.0.1 - - [17/Apr/2017 20:50:32] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:50:32,884 127.0.0.1 - - [17/Apr/2017 20:50:32] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 20:51:32,520  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/flaskr/flaskr/flaskr.py', reloading
+2017-04-17 21:01:25,316 Instabot Started
+2017-04-17 21:01:26,536 Login success as ogdencitizensclub!
+2017-04-17 21:01:26,543 127.0.0.1 - - [17/Apr/2017 21:01:26] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 21:01:27,444 127.0.0.1 - - [17/Apr/2017 21:01:27] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 21:01:27,445 127.0.0.1 - - [17/Apr/2017 21:01:27] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 21:01:27,445 127.0.0.1 - - [17/Apr/2017 21:01:27] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 21:01:27,626 127.0.0.1 - - [17/Apr/2017 21:01:27] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:01:27,678 127.0.0.1 - - [17/Apr/2017 21:01:27] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:01:53,619  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber/scrabber.py', reloading
+2017-04-17 21:02:20,386 Instabot Started
+2017-04-17 21:02:21,369 Login success as ogdencitizensclub!
+2017-04-17 21:02:21,376 127.0.0.1 - - [17/Apr/2017 21:02:21] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 21:02:21,414 127.0.0.1 - - [17/Apr/2017 21:02:21] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 21:02:21,438 127.0.0.1 - - [17/Apr/2017 21:02:21] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 21:02:21,438 127.0.0.1 - - [17/Apr/2017 21:02:21] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 21:02:21,595 127.0.0.1 - - [17/Apr/2017 21:02:21] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:02:21,771 127.0.0.1 - - [17/Apr/2017 21:02:21] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:05:41,976 Instabot Started
+2017-04-17 21:05:43,092 Login success as ogdencitizensclub!
+2017-04-17 21:05:43,099 127.0.0.1 - - [17/Apr/2017 21:05:43] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 21:05:43,121 127.0.0.1 - - [17/Apr/2017 21:05:43] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 21:05:43,122 127.0.0.1 - - [17/Apr/2017 21:05:43] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 21:05:43,123 127.0.0.1 - - [17/Apr/2017 21:05:43] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 21:05:43,440 127.0.0.1 - - [17/Apr/2017 21:05:43] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:05:43,494 127.0.0.1 - - [17/Apr/2017 21:05:43] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:07:27,699  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber/scrabber.py', reloading
+2017-04-17 21:08:05,042 Instabot Started
+2017-04-17 21:08:06,088 Login success as ogdencitizensclub!
+2017-04-17 21:08:06,095 127.0.0.1 - - [17/Apr/2017 21:08:06] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 21:08:06,121 127.0.0.1 - - [17/Apr/2017 21:08:06] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 21:08:06,122 127.0.0.1 - - [17/Apr/2017 21:08:06] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 21:08:06,122 127.0.0.1 - - [17/Apr/2017 21:08:06] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 21:08:06,257 127.0.0.1 - - [17/Apr/2017 21:08:06] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:08:06,293 127.0.0.1 - - [17/Apr/2017 21:08:06] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:09:58,566  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber/scrabber.py', reloading
+2017-04-17 21:10:12,417 Instabot Started
+2017-04-17 21:10:12,425 127.0.0.1 - - [17/Apr/2017 21:10:12] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 21:10:12,455 127.0.0.1 - - [17/Apr/2017 21:10:12] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 21:10:12,455 127.0.0.1 - - [17/Apr/2017 21:10:12] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 21:10:12,456 127.0.0.1 - - [17/Apr/2017 21:10:12] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 21:10:12,651 127.0.0.1 - - [17/Apr/2017 21:10:12] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:10:12,723 127.0.0.1 - - [17/Apr/2017 21:10:12] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:10:27,922  * Detected change in '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/scrabber/scrabber/scrabber.py', reloading
+2017-04-17 21:11:47,435 Instabot Started
+2017-04-17 21:11:48,473 Login success as ogdencitizensclub!
+2017-04-17 21:11:48,479 127.0.0.1 - - [17/Apr/2017 21:11:48] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 500 -
+2017-04-17 21:11:48,515 127.0.0.1 - - [17/Apr/2017 21:11:48] "GET /hey?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-04-17 21:11:48,516 127.0.0.1 - - [17/Apr/2017 21:11:48] "GET /hey?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-04-17 21:11:48,516 127.0.0.1 - - [17/Apr/2017 21:11:48] "GET /hey?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-04-17 21:11:48,650 127.0.0.1 - - [17/Apr/2017 21:11:48] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:11:48,765 127.0.0.1 - - [17/Apr/2017 21:11:48] "GET /hey?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-04-17 21:15:55,553 Instabot Started
+2017-04-17 21:15:56,669 Login success as ogdencitizensclub!
+2017-04-17 21:16:21,906 127.0.0.1 - - [17/Apr/2017 21:16:21] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:16:21,950 127.0.0.1 - - [17/Apr/2017 21:16:21] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:18:32,399 127.0.0.1 - - [17/Apr/2017 21:18:32] "GET / HTTP/1.1" 200 -
+2017-04-17 21:18:32,440 127.0.0.1 - - [17/Apr/2017 21:18:32] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:18:37,847 127.0.0.1 - - [17/Apr/2017 21:18:37] "POST / HTTP/1.1" 302 -
+2017-04-17 21:18:37,901 Instabot Started
+2017-04-17 21:18:38,848 Login success as ogdencitizensclub!
+2017-04-17 21:18:40,724 127.0.0.1 - - [17/Apr/2017 21:18:40] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:18:40,749 127.0.0.1 - - [17/Apr/2017 21:18:40] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:19:06,791 Bot stopped. Worked: 0:00:28.890134
+2017-04-17 21:19:06,791 Total requests: 5
+2017-04-17 21:19:07,105 Bot stopped. Worked: 0:03:11.552885
+2017-04-17 21:19:07,106 Total requests: 41
+2017-04-17 21:19:55,946 Instabot Started
+2017-04-17 21:19:57,090 Login success as ogdencitizensclub!
+2017-04-17 21:19:58,588 127.0.0.1 - - [17/Apr/2017 21:19:58] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:19:58,617 127.0.0.1 - - [17/Apr/2017 21:19:58] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:26:08,443 Bot stopped. Worked: 0:10:12.890822
+2017-04-17 21:26:08,444 Total requests: 43
+2017-04-17 21:26:26,052 Instabot Started
+2017-04-17 21:26:27,067 Login success as ogdencitizensclub!
+2017-04-17 21:26:28,654 127.0.0.1 - - [17/Apr/2017 21:26:28] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:26:28,684 127.0.0.1 - - [17/Apr/2017 21:26:28] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:28:30,165 Bot stopped. Worked: 0:12:34.612940
+2017-04-17 21:28:30,166 Total requests: 45
+2017-04-17 21:33:06,454 Instabot Started
+2017-04-17 21:33:07,488 Login success as ogdencitizensclub!
+2017-04-17 21:33:09,121 127.0.0.1 - - [17/Apr/2017 21:33:09] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:33:09,142 127.0.0.1 - - [17/Apr/2017 21:33:09] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:36:13,591 Bot stopped. Worked: 0:20:18.038858
+2017-04-17 21:36:13,592 Total requests: 47
+2017-04-17 21:36:45,100 Instabot Started
+2017-04-17 21:36:45,884 Login success as ogdencitizensclub!
+2017-04-17 21:37:10,457 127.0.0.1 - - [17/Apr/2017 21:37:10] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:37:10,481 127.0.0.1 - - [17/Apr/2017 21:37:10] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:39:26,556 Bot stopped. Worked: 0:23:31.003123
+2017-04-17 21:39:26,556 Total requests: 85
+2017-04-17 21:40:04,660 Instabot Started
+2017-04-17 21:40:05,628 Login success as ogdencitizensclub!
+2017-04-17 21:40:07,351 127.0.0.1 - - [17/Apr/2017 21:40:07] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 21:40:07,372 127.0.0.1 - - [17/Apr/2017 21:40:07] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 21:43:42,692 Bot stopped. Worked: 0:27:47.139922
+2017-04-17 21:43:42,693 Total requests: 87
+2017-04-17 23:31:42,046 Instabot Started
+2017-04-17 23:31:43,469 Login success as ogdencitizensclub!
+2017-04-17 23:31:49,686 Request return 400 error!
+2017-04-17 23:31:49,687 This is a closed account.
+2017-04-17 23:32:31,482 127.0.0.1 - - [17/Apr/2017 23:32:31] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 23:32:31,540 127.0.0.1 - - [17/Apr/2017 23:32:31] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 23:35:21,838 127.0.0.1 - - [17/Apr/2017 23:35:21] "GET / HTTP/1.1" 200 -
+2017-04-17 23:35:21,937 127.0.0.1 - - [17/Apr/2017 23:35:21] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 23:35:27,258 127.0.0.1 - - [17/Apr/2017 23:35:27] "POST / HTTP/1.1" 302 -
+2017-04-17 23:35:27,268 Instabot Started
+2017-04-17 23:35:28,474 Login success as ogdencitizensclub!
+2017-04-17 23:35:28,775 Request return 404 error!
+2017-04-17 23:35:29,070 Request return 404 error!
+2017-04-17 23:35:29,525 Request return 404 error!
+2017-04-17 23:35:29,526 This is a closed account.
+2017-04-17 23:35:29,575 127.0.0.1 - - [17/Apr/2017 23:35:29] "GET /hey?messages=%7B%22username%22%3A+%22odgencitizensclub%22%2C+%22password%22%3A+%22Tasselhof1995%22%7D HTTP/1.1" 500 -
+2017-04-17 23:35:40,358 127.0.0.1 - - [17/Apr/2017 23:35:40] "GET / HTTP/1.1" 200 -
+2017-04-17 23:35:40,389 127.0.0.1 - - [17/Apr/2017 23:35:40] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 23:35:44,091 127.0.0.1 - - [17/Apr/2017 23:35:44] "POST / HTTP/1.1" 302 -
+2017-04-17 23:35:44,102 Instabot Started
+2017-04-17 23:35:45,082 Login success as ogdencitizensclub!
+2017-04-17 23:35:45,376 Request return 404 error!
+2017-04-17 23:35:45,651 Request return 404 error!
+2017-04-17 23:35:47,059 Request return 404 error!
+2017-04-17 23:35:47,059 This is a closed account.
+2017-04-17 23:35:47,060 127.0.0.1 - - [17/Apr/2017 23:35:47] "GET /hey?messages=%7B%22username%22%3A+%22odgencitizensclub%22%2C+%22password%22%3A+%22Tasselhof1995%22%7D HTTP/1.1" 500 -
+2017-04-17 23:40:08,285 Bot stopped. Worked: 0:04:24.182658
+2017-04-17 23:40:08,351 Total requests: 6
+2017-04-17 23:40:08,867 Bot stopped. Worked: 0:04:41.599247
+2017-04-17 23:40:08,868 Total requests: 6
+2017-04-17 23:40:09,196 Bot stopped. Worked: 0:08:27.150064
+2017-04-17 23:40:09,196 Total requests: 25
+2017-04-17 23:42:44,020 Instabot Started
+2017-04-17 23:42:45,372 Login success as ogdencitizensclub!
+2017-04-17 23:43:54,442 127.0.0.1 - - [17/Apr/2017 23:43:54] "GET /hey?messages=%7B%22username%22%3A+%22alexm.shots%22%2C+%22password%22%3A+%22ofg%22%7D HTTP/1.1" 200 -
+2017-04-17 23:43:55,492 127.0.0.1 - - [17/Apr/2017 23:43:55] "GET /static/style.css HTTP/1.1" 404 -
+2017-04-17 23:44:11,324 Bot stopped. Worked: 0:12:29.277450
+2017-04-17 23:44:11,324 Total requests: 83
+2017-04-18 23:57:45,232 Instabot Started
+2017-04-18 23:57:46,372 Request return 400 error!
+2017-04-18 23:57:46,372 Login or password is incorrect.
+2017-04-18 23:58:19,906 Instabot Started
+2017-04-18 23:58:22,227 Login success as zertsalov!
+2017-04-18 23:58:26,134 127.0.0.1 - - [18/Apr/2017 23:58:26] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%221%22%7D HTTP/1.1" 500 -
+2017-04-18 23:59:14,258 Instabot Started
+2017-04-18 23:59:15,633 Login success as zertsalov!
+2017-04-18 23:59:19,242 127.0.0.1 - - [18/Apr/2017 23:59:19] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%221%22%7D HTTP/1.1" 500 -
+2017-04-19 00:06:03,021 Bot stopped. Worked: 0:06:48.762521
+2017-04-19 00:06:03,021 Total requests: 7
+2017-04-19 00:06:11,790 Instabot Started
+2017-04-19 00:06:14,017 Login success as zertsalov!
+2017-04-19 00:06:17,699 127.0.0.1 - - [19/Apr/2017 00:06:17] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%222%22%7D HTTP/1.1" 500 -
+2017-04-19 00:06:27,741 Bot stopped. Worked: 0:08:07.834656
+2017-04-19 00:06:27,741 Total requests: 11
+2017-04-19 00:15:54,121 Instabot Started
+2017-04-19 00:15:55,620 Login success as zertsalov!
+2017-04-19 00:15:55,624 127.0.0.1 - - [19/Apr/2017 00:15:55] "GET /hey?messages=%7B%22username%22%3A%22%22%2C%22password%22%3A%22%22%7D HTTP/1.1" 500 -
+2017-04-19 00:15:55,889 Instabot Started
+2017-04-19 00:15:58,721 Login success as zertsalov!
+2017-04-19 00:15:58,722 127.0.0.1 - - [19/Apr/2017 00:15:58] "GET /hey?messages=%7B%22username%22%3A%22%22%2C%22password%22%3A%22%22%7D HTTP/1.1" 500 -
+2017-04-19 00:16:06,932 Instabot Started
+2017-04-19 00:16:07,655 Login success as zertsalov!
+2017-04-19 00:16:10,311 127.0.0.1 - - [19/Apr/2017 00:16:10] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%221%22%7D HTTP/1.1" 500 -
+2017-04-19 00:16:10,318 Instabot Started
+2017-04-19 00:16:11,122 Login success as zertsalov!
+2017-04-19 00:16:13,756 127.0.0.1 - - [19/Apr/2017 00:16:13] "GET /hey?messages=%7B%22username%22%3A%22zerts%22%2C%22password%22%3A%221%22%7D HTTP/1.1" 500 -
