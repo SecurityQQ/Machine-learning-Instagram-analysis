@@ -15,7 +15,7 @@ from resizeimage import resizeimage
 import glob
 import os
 import sys
-root = '/home/valeriyasin/Documents/Study/furtups/Instagram-Images-Scrabber/predict_system'
+root = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/predict_system'
 
 
 
