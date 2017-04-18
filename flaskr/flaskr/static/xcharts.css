@@ -32,12 +32,12 @@
 
 .xchart .axis text {
 	font-family: Helvetica, Arial, Verdana, sans-serif;
-	fill: #000;
-	font-size: 12px;
+	fill: #fff;
+	font-size: 16px;
 }
 
 .xchart .color0 .line {
-	stroke: #4680c5;
+	stroke: #D501FF;
 }
 
 .xchart .color0 .line .fill {
@@ -46,7 +46,7 @@
 
 .xchart .color0 rect,
 .xchart .color0 circle {
-	fill: #4680c5;
+	fill: #D501FF;
 }
 
 .xchart .color0 .fill {
@@ -54,11 +54,11 @@
 }
 
 .xchart .color0.comp .line {
-	stroke: #4680c5;
+	stroke: #D501FF;
 }
 
 .xchart .color0.comp rect {
-	fill: #4680c5;
+	fill: #D501FF;
 }
 
 .xchart .color0.comp .fill {
@@ -67,7 +67,7 @@
 
 .xchart .color0.comp circle,
 .xchart .color0.comp .pointer {
-	fill: #4680c5;
+	fill: #D501FF;
 }
 
 .xchart .color1 .line {

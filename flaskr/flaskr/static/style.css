@@ -2,6 +2,7 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 0;
+  background-color: #000;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -10,6 +11,10 @@ body {
 .footer {
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+header {
+  color: #fff;
 }
 
 /* Custom page header */
@@ -24,6 +29,7 @@ body {
   margin-bottom: 0;
   line-height: 3rem;
   text-align: right;
+  color: #fff;
 }
 
 /* Custom page footer */
@@ -35,7 +41,9 @@ body {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  border-top: solid 2px white;
+  color: #fff;
+  /*background-color: #efefef;*/
   text-align: center;
 }
 
@@ -58,11 +66,16 @@ body {
 .container-narrow > hr {
   margin: 2rem 0;
 }
+.nav-link {
+  color: #fff;
+}
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  color: #fff;
+  background-color: transparent;
   text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
+  border: .1rem solid #e5e5e5;
   -webkit-box-shadow: 0px 0px 25px -2px rgba(0,0,0,0.5);  
   -moz-box-shadow: 0px 0px 25px -2px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px -2px rgba(0,0,0,0.5);
@@ -70,6 +83,18 @@ body {
 .jumbotron .btn {
   padding: .75rem 1.5rem;
   font-size: 1.5rem;
+}
+
+.web-site-name {
+  display: flex;
+  align-items: baseline;
+}
+
+.graph-tooltip {
+  position: absolute;
+  color: #fff;
+  border: .1rem solid #e5e5e5;
+  border-radius: 5px;
 }
 
 .graph {
@@ -86,6 +111,14 @@ body {
 #graph {
   height: 100%;
   width: 100%;
+}
+
+#calculate {
+  margin-top: 1rem;
+}
+
+#calculate-title {
+  margin-bottom: 2rem;
 }
 
 
@@ -111,17 +144,19 @@ body {
     margin-bottom: 2rem;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
 }
 
 .slider {
+  color: #fff;
   text-align: center;
-  background-color: #e5e5e5;
-  -webkit-box-shadow: -7px 0px 24px -8px rgba(0,0,0,0.75);
-  -moz-box-shadow: -7px 0px 24px -8px rgba(0,0,0,0.75); 
-  box-shadow: -7px 0px 24px -8px rgba(0,0,0,0.75);
+  background-color: #000;
+  -webkit-box-shadow: -7px 0px 24px -8px rgba(200, 200, 200, 0.75);
+  -moz-box-shadow: -7px 0px 24px -8px rgba(200, 200, 200, 0.75); 
+  box-shadow: -7px 0px 24px -8px rgba(200, 200, 200, 0.75);
+}
+
+#slider-about {
+  padding: 1.5rem;
 }
 
 .credit {
@@ -139,11 +174,16 @@ body {
 
 .name-info {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .avatar {
   height: 100px;
   width: 100px;
+  border-radius: 50px;
+  border: .3rem solid #e5e5e5;
   border-radius: 50px;
 }
 

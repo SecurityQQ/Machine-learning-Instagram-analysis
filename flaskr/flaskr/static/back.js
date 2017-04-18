@@ -27,8 +27,8 @@ function createBackNet() {
     }
 };
 
-function showHideFooter() {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 200) {
+function showHideFooter(delta) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - delta) {
         $('.footer').css('position', 'fixed');
         $('.footer').css('bottom', 0);
         $('.footer').show();
@@ -39,24 +39,35 @@ function showHideFooter() {
 };
 
 window.onscroll = function () {
-    showHideFooter();
+    showHideFooter(0);
 };
 
 $(window).resize(function () {
     //$('.footer').hide();
     createBackNet();
-    showHideFooter();
+    showHideFooter(0);
 });
 
 $(document).ready(function () {
+    console.log('ready');
+    $('.loader').hide();
+    $('.graph').hide();
     createBackNet();
-    showHideFooter();
+    showHideFooter(1000);
 });
 
 $(function ($) {
-    var slider = $("#slider").slideReveal({
+    var slider = $("#slider-contacts").slideReveal({
         width: 400,
         trigger: $("#Contacts"),
+        autoEscape: true,
+        push: false,
+        overlay: true,
+        position: "right",
+    });
+    var slider = $("#slider-about").slideReveal({
+        width: 400,
+        trigger: $("#About"),
         autoEscape: true,
         push: false,
         overlay: true,
