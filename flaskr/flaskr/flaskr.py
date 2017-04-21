@@ -1,7 +1,8 @@
 import os
 import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
-     render_template, flash
+     render_template, flash, jsonify
+
 import sys
 calc_dir = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/predict_system'
 scrabber_dir = '/home/zerts/MIPT/Machine-learning-Instagram-analysis/scrabber/scrabber'
@@ -80,7 +81,9 @@ def show_output():
     # styles = caffe_flickr_app.predict_user(messages['username'])
     styles={}
     # clear_memory(messages['username'])
-    return render_template('show_output.html', objects=objects, styles=styles)
+    print(objects)
+    return jsonify(objects)
+    # return render_template('show_output.html', objects=objects, styles=styles)
 
 
 @app.route('/', methods=['GET', 'POST'])
